@@ -116,9 +116,9 @@
 				</executions>
 				<dependencies>
 					<dependency>
-
 						<groupId>org.springframework.restdocs</groupId>
-
+						<artifactId>spring-restdocs-mockmvc</artifactId>  <!-- Correct Artifact ID -->
+						<version>3.2.1</version>  <!-- Correct Version -->
 					</dependency>
 				</dependencies>
 			</plugin>
